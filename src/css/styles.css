@@ -61,5 +61,17 @@ footer {
 .card {
     flex: 1 1 calc(25% - 1rem);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-body .btn {
+    margin-top: auto;
 }
 
