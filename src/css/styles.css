@@ -3,11 +3,11 @@
 }
 
 .navbar a {
-    color: white;
+    color: #333;
 }
 
 .navbar a:hover {
-    color: #e2e6ea;
+    color: #333;
 }
 
 .container {
